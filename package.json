@@ -1,0 +1,20 @@
+{
+  "name": "gobble-cssnext",
+  "version": "1.0.0",
+  "description": "Compile CSS files with gobble and cssnext",
+  "author": "Arpad Borsos <arpad.borsos@googlemail.com>",
+  "license": "LGPL-3.0",
+  "repository": "https://github.com/Swatinem/gobble-cssnext",
+  "keywords": [
+    "gobble",
+    "gobble-plugin"
+  ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "cssnext": "^1.8.1",
+    "sander": "^0.3.4"
+  }
+}
