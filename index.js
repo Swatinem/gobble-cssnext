@@ -20,7 +20,7 @@ module.exports = function cssnext(inputdir, outputdir, options, next) {
     if (map) {
       return sander.Promise.all([
         sander.writeFile(dest, output.css),
-        sander.writeFile(dest + ".map", output.map),
+        sander.writeFile(dest + ".map", String(output.map)),
       ])
     } else {
       return sander.writeFile(dest, output)
