@@ -1,6 +1,6 @@
 {
   "name": "gobble-cssnext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile CSS files with gobble and cssnext",
   "author": "Arpad Borsos <arpad.borsos@googlemail.com>",
   "license": "LGPL-3.0",
